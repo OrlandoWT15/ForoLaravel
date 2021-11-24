@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Livewire\Foro\Index;
+use App\Http\Livewire\Foro\Object\Context;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,5 @@ use App\Http\Livewire\Foro\Index;
 */
 
 Route::get('/', Index::class)->name('index');
+
+Route::get('/index',Context::class)->name('context');
