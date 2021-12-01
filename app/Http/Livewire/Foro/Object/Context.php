@@ -8,6 +8,6 @@ class Context extends Component
 {
     public function render()
     {
-        return view('livewire.foro.object.context');
+        return view('livewire.foro.object.context')->layout('layouts.app');
     }
 }

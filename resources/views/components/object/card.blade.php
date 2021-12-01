@@ -10,12 +10,12 @@
     </div>
 
     <div class="mt-2">
-        <a href="#" class="text-2xl font-bold tracking-wide text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline">{{$title}}</a>
+        <a  href="{{$link}}" class="text-2xl font-bold tracking-wide text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline" >{{$title}}</a>
         <p class="mt-2 text-gray-600 dark:text-gray-300">{{$description}}</p>
     </div>
 
     <div class="flex items-center justify-between mt-4">
-        <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">{{ __('Continua leyendo') }}</a>
+        <a  href="{{$link}}" class="text-blue-600 dark:text-blue-400 hover:underline" >{{ __('Continua leyendo') }}</a>
 
         <div class="flex items-center">
             
