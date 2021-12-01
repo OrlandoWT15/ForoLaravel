@@ -1,6 +1,4 @@
 
-
-
 <nav class="bg-default">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
@@ -39,12 +37,12 @@
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
             <!-- Navigation Links --> 
-            <x-nav.navlinks href="{{ route('index') }}" :active="request()->routeIs('index')">
-                {{ __('Inicio') }}
+            <x-nav.navlinks href="{{ route('ban') }}" :active="request()->routeIs('ban')">
+                {{ __('Reportes') }}
             </x-nav.navlinks>
 
-            <x-nav.navlinks href="{{ route('category') }}" :active="request()->routeIs('category')">
-                {{ __('Academias') }}
+            <x-nav.navlinks href="{{ route('only') }}" :active="request()->routeIs('only')">
+                {{ __('Peticiones') }}
             </x-nav.navlinks>
           </div>
         </div>
@@ -61,7 +59,7 @@
         <!-- Profile dropdown -->
         <x-nav.dropdown>
             <x-slot name="trigger">
-                <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                <img class="h-8 w-8 rounded-full" src="https://randomuser.me/api/portraits/women/91.jpg" alt="">
             </x-slot>
             <x-slot name="content">
                 <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
@@ -87,5 +85,3 @@
     </div>
   </div>
 </nav>
-
-

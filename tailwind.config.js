@@ -13,7 +13,18 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                bebas: ["'bebas Neue', cursiv"],
             },
+
+            colors: {
+                'primary': '#3490dc',
+                'secondary': '#ffed4a',
+                'danger': '#e3342f',
+                'default': '#161b32',
+                'contrast': '#ACC8E5',
+            },
+            
+            backgroundColor: ['active'],
         },
     },
 

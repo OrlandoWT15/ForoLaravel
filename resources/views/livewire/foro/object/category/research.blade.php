@@ -1,18 +1,11 @@
 <div>
-    <x-object.container>
-
-        <x-object.section>
-            <div class="flex mt-1 py-8 justify-center items-center ">
-                <input type="text" id="password" class="rounded-full py-3 px-6 w-3/4 pl-3 pr-10  border-2 border-gray-200  hover:border-gray-300 focus:outline-none focus:border-blue-500 transition-colors" placeholder="Search..."> 
-            </div>
-        </x-object.section>
-
+    <x-object.container> 
         <x-object.section>
             <div class="py-3 divide-y-2 divide-black divide-opacity-50 space-y-8">
                 <h1 class="text-5xl uppercase font-bebas px-2 p-1">
-                    {{ __('preguntas frecuentes') }}
+                    {{ __('busqueda de academias') }}
                 </h1>
-
+    
                 <!-- 
                     Cards
                     -->
@@ -105,8 +98,9 @@
                         Mar 13, 2021
                     </x-slot>
                 </x-object.card>
-
+    
             </div>
         </x-object.section>  
     </x-object.container>
 </div>
+
