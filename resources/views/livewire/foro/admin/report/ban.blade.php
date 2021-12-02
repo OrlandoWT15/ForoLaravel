@@ -33,7 +33,7 @@
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-xs border">
-                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm"> Report </span>
+                            <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-sm"> Report </span>
                             </td>
                             <td class="px-4 py-3 text-sm border">6/4/2000</td>
                             <td class="px-4 py-3 text-sm border">
@@ -74,7 +74,7 @@
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-xs border">
-                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm"> Report </span>
+                            <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-sm"> Report </span>
                             </td>
                             <td class="px-4 py-3 text-sm border">6/4/2000</td>
                             <td class="px-4 py-3 text-sm border">
@@ -115,7 +115,7 @@
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-xs border">
-                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm"> Report </span>
+                            <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-sm"> Report </span>
                             </td>
                             <td class="px-4 py-3 text-sm border">6/4/2000</td>
                             <td class="px-4 py-3 text-sm border">
@@ -156,7 +156,7 @@
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-xs border">
-                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm"> Report </span>
+                            <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-sm"> Report </span>
                             </td>
                             <td class="px-4 py-3 text-sm border">6/4/2000</td>
                             <td class="px-4 py-3 text-sm border">
@@ -197,7 +197,7 @@
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-ms font-semibold border">22</td>
                             <td class="px-4 py-3 text-xs border">
-                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm"> Report </span>
+                            <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-sm"> Report </span>
                             </td>
                             <td class="px-4 py-3 text-sm border">6/4/2000</td>
                             <td class="px-4 py-3 text-sm border">

@@ -1,8 +1,8 @@
 <x-guest-layout>
     <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
         <div>
-            <img class="hidden lg:block h-32 w-auto" src="{{asset('storage/icon/titulo.svg')}}" alt="Workflow">
-            <img class="block lg:hidden h-16 w-auto" src="{{asset('storage/icon/titulo.svg')}}" alt="Workflow">
+            <img class="hidden lg:block h-32 w-auto" src="{{asset('storage/icon/titulov3.svg')}}" alt="Workflow">
+            <img class="block lg:hidden h-16 w-auto" src="{{asset('storage/icon/titulov3.svg')}}" alt="Workflow">
         </div>
 
         <div class="w-full sm:max-w-xl mt-6 px-12 py-8 bg-white shadow-md overflow-hidden sm:rounded-lg">
@@ -14,7 +14,7 @@
                     {{ session('status') }}
                 </div>
             @endif
-            <div class="flex justify-start ml-12 ">
+            <div class="flex justify-start ml-4 ">
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
 
@@ -48,7 +48,7 @@
                     </div>
                 </form>
                 <div class="px-2 ml-12">
-                    <img class="hidden lg:block h-32 w-auto" src="{{asset('storage/icon/castor.svg')}}" alt="Workflow">
+                    <img class="hidden lg:block h-36 w-auto" src="{{asset('storage/icon/castor.svg')}}" alt="Workflow">
                     <img class="block lg:hidden h-16 w-auto" src="{{asset('storage/icon/castor_2.svg')}}" alt="Workflow">
                 </div>
             </div>
