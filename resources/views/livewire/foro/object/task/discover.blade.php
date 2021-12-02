@@ -55,7 +55,10 @@
                       <!-- 
                         Comentari
                         -->
-                    <div class="divide-y-2 divide-black divide-opacity-50">
+                    
+                    
+                    <div class="divide-y-2 divide-black divide-opacity-100">
+                        <h1 class="underline uppercase"> Comentarios<h1/> 
                         <div class="max-w-xl  px-2 py-2 mx-auto bg-white rounded-sm shadow-md ">
                             <div class="flex items-center justify-between">
                                 <div class="flex items-start justify-center">
