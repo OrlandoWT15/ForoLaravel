@@ -228,12 +228,8 @@
         </div>
     </section>
      <!-- Modal-->
-
-     
-     
-</div>
-
-{{--Ventana Modal Publicaciones--}}
+     s
+    {{--Ventana Modal Publicaciones--}}
     <x-jet-dialog-modal wire:model="show_publications">
 		<x-slot name="title">  
             <div class="px-6 py-4 flex flex-row-reverse justify-between">
@@ -411,3 +407,8 @@
 	    
 
 	</x-jet-dialog-modal>
+     
+     
+</div>
+
+   

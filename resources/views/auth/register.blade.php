@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img class="hidden lg:block h-32 w-auto" src="{{asset('storage/icon/castor.svg')}}" alt="Workflow">
+            <img class="block lg:hidden h-16 w-auto" src="{{asset('storage/icon/titulo.svg')}}" alt="Workflow">
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
